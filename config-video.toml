@@ -32,7 +32,7 @@ Theme = "hugo-vitality-theme"
 	Description = "I didn't set the website description yet."
 	Favicon = "favicon.ico"
 	Author = "StartBootstrap"
-	BrandImage = "img/logo.png"
+	BrandImage = "img/agency/logo.svg"
 	BrandImageHeight = "50"
 
 	# List of Google fonts, for use in less files.
