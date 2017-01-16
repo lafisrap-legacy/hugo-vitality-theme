@@ -1,0 +1,17 @@
+<!-- Header -->
+{{ with .Site.Data.legal.hero }}
+<header style="background-image: url('{{ .image }}');">
+    <div class="intro-content">
+        <img src="{{ .logo }}" class="img-responsive img-centered" alt="">
+        {{ if .brand }}
+        <div class="brand-name">{{ .brand }}</div>
+        <hr class="colored">
+        <div class="brand-name-subtext">{{ .subtext }}</div>
+        {{ end }}
+    </div>
+    <div class="scroll-down">
+        <a class="btn page-scroll" href="#{{ .ref | urlize }}"><i class="fa fa-angle-down fa-fw"></i></a>
+    </div>
+</header>
+{{ end }}
+

@@ -1,0 +1,10 @@
+# To configure a background video for your header you will 
+# need to configure the Formstone Background plugin in the 
+# static/js/vitality.js file. You must also be using the header structure 
+# used in the video.html sample file. You will also want to edit the 
+# file path of the mobile fallback image. Or just copy your video clip
+# over static/mp4/camera.mp4
+logo: "img/agency/profile.svg"
+brand: "Vitality"
+subtext: "by Start Bootstrap"
+ref: "About"

@@ -1,0 +1,20 @@
+title: "Press"
+subtitle: "Here's what the critics are saying."
+quotes:
+  - lead: "A unique blend of flavors at this restaurant made for an unforgettable culinary adventure."
+    quote: >
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+      Reprehenderit, temporibus, laborum, dignissimos doloremque corporis alias nostrum recusandae culpa id quisquam harum impedit sed sunt non obcaecati vero ipsam aut fugit?
+    image: "img/culinary/testimonials/1.jpg"
+    author: "Jeff Wellington"
+    authorInfo: "Food Critic"
+    stars: 5
+
+  - lead: "Some of the best food I ever tasted came from the head chef."
+    quote: >
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+      Quidem amet rem minus dolorum, facere in soluta explicabo, unde eveniet illo vel, nemo nostrum atque nesciunt facilis quaerat quasi reprehenderit dicta.
+    image: "img/culinary/testimonials/2.jpg"
+    author: "Jane Walker"
+    authorInfo: "Writer at Cuisine World"
+    stars: 4

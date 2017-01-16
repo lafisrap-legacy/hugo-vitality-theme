@@ -1,0 +1,22 @@
+title: Our Process
+subtitle: Here is an overview of how we approach each new collection or design.
+delay: 0.2
+processes:
+  - process: "Plan"
+    icon: "fa-clipboard"
+    bullets:
+    - <em>Design concept</em>
+    - <em>Artistic rendering</em>
+    - <em>Materials selection</em>
+  - process: "Create"
+    icon: "fa-pencil"
+    bullets:
+    - <em>Prototype production</em>
+    - <em>View on live models</em>
+    - <em>Add to collection</em>
+  - process: "Reveal"
+    icon: "fa-rocket"
+    bullets:
+    - <em>Reveal at fashion show</em>
+    - <em>Analyze feedback</em>
+    - <em>Bring to market</em>

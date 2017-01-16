@@ -1,0 +1,17 @@
+
+title: A Theme for Lawyers & Firms
+description: This sample is the perfect theme for a professional lawyer or law firm.
+services:
+  - service: "CONTRACT LAW"
+    description: "We cover all areas of contract law including breach of contract, misrepresentation, fraud, illegal contracts, and contract formation."
+    icon: "fa-file-o"
+  - service: "INTELLECTUAL PROPERTY"
+    description: "We help owners of intangible, intellectual assets maintain the rights to their ideas and inventions as well as trademarks."
+    icon: "fa-lightbulb-o"
+  - service: "PATENT LAW"
+    description: "Our patent law team helps to create and enforce official U.S. patents on inventions, techniques, and unique processes."
+    icon: "fa-lock"
+  - service: "TAX LAW"
+    description: "We represent U.S. citizens who have disputes with the Internal Revenue Service. Our tax law team has over 40 years of experience."
+    icon: "fa-usd"
+servicesDelay: 0.22

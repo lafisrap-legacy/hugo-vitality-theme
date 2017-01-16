@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+<head>
+        {{ partial "creative/head.html" . }}
+</head>
+
+<!-- NOTE: Use the .modern or .vintage class to the body element below to see different font pairings! -->
+<body id="page-top"{{ if or (eq .Site.Params.Style "modern") (eq .Site.Params.Style "vintage") }} class="{{ .Site.Params.Style }}"{{ end }}>
+
+    {{ if eq .Site.Params.Flavour "agency" }}
+
+        {{ partial "agency/nav.html" . }}
+        {{ partial "agency/hero.html" . }}
+        {{ partial "agency/about.html" . }}
+        {{ partial "agency/team.html" . }}
+        {{ partial "agency/aside.html" . }}
+        {{ partial "agency/process.html" . }}
+        {{ partial "agency/work.html" . }}
+        {{ partial "agency/grid.html" . }}
+        {{ partial "agency/testimonials.html" . }}
+        {{ partial "agency/pricing.html" . }}
+        {{ partial "agency/newsletter.html" . }}
+        {{ partial "agency/contact.html" . }}
+        {{ partial "agency/footer.html" . }}    
+
+    {{ else if eq .Site.Params.Flavour "creative" }}
+
+        {{ partial "creative/nav.html" . }}
+        {{ partial "creative/hero.html" . }}
+        {{ partial "creative/about.html" . }}
+        {{ partial "creative/services.html" . }}
+        {{ partial "creative/aside.html" . }}
+        {{ partial "creative/process.html" . }}
+        {{ partial "creative/work.html" . }}
+        {{ partial "creative/grid.html" . }}
+        {{ partial "creative/testimonials.html" . }}
+        {{ partial "creative/newsletter.html" . }}
+        {{ partial "creative/contact.html" . }}
+        {{ partial "creative/footer.html" . }}    
+
+    {{ else if eq .Site.Params.Flavour "culinary" }}
+
+        {{ partial "culinary/nav.html" . }}
+        {{ partial "culinary/hero.html" . }}
+        {{ partial "culinary/values.html" . }}
+        {{ partial "culinary/aside.html" . }}
+        {{ partial "culinary/team.html" . }}
+        {{ partial "culinary/testimonials.html" . }}
+        {{ partial "culinary/newsletter.html" . }}
+        {{ partial "culinary/pricing.html" . }}
+        {{ partial "culinary/gallery.html" . }}
+        {{ partial "culinary/footer.html" . }}    
+
+    {{ else if eq .Site.Params.Flavour "fashion" }}
+
+        {{ partial "fashion/nav.html" . }}
+        {{ partial "fashion/hero.html" . }}
+        {{ partial "fashion/about.html" . }}
+        {{ partial "fashion/team.html" . }}
+        {{ partial "fashion/aside.html" . }}
+        {{ partial "fashion/process.html" . }}
+        {{ partial "fashion/collection.html" . }}
+        {{ partial "fashion/locations.html" . }}
+        {{ partial "fashion/testimonials.html" . }}
+        {{ partial "fashion/newsletter.html" . }}
+        {{ partial "fashion/contact.html" . }}
+        {{ partial "fashion/footer.html" . }}    
+
+    {{ else if eq .Site.Params.Flavour "legal" }}
+
+        {{ partial "legal/nav.html" . }}
+        {{ partial "legal/hero.html" . }}
+        {{ partial "legal/about.html" . }}
+        {{ partial "legal/team.html" . }}
+        {{ partial "legal/aside.html" . }}
+        {{ partial "legal/jurisdictions.html" . }}
+        {{ partial "legal/locations.html" . }}
+        {{ partial "legal/contact.html" . }}
+        {{ partial "legal/footer.html" . }}    
+
+    {{ else if eq .Site.Params.Flavour "video" }}
+
+        {{ partial "video/nav.html" . }}
+        {{ partial "video/hero.html" . }}
+        {{ partial "video/about.html" . }}
+        {{ partial "video/team.html" . }}
+        {{ partial "video/aside.html" . }}
+        {{ partial "video/processes.html" . }}
+        {{ partial "video/work.html" . }}
+        {{ partial "video/grid.html" . }}
+        {{ partial "video/testimonials.html" . }}
+        {{ partial "video/pricing.html" . }}
+        {{ partial "video/newsletter.html" . }}
+        {{ partial "video/contact.html" . }}
+        {{ partial "video/footer.html" . }} 
+
+    {{ end }}
+
+ 
+        <!-- Core Scripts -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/cbpAnimatedHeader.js"></script>
+
+    <!-- Plugin Scripts -->
+    <script src="vendor/jquery.easing/jquery.easing.min.js"></script>
+    <script src="vendor/owl-carousel/owl.carousel.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="vendor/formstone/core.js"></script>
+    <script src="vendor/formstone/transition.js"></script>
+    <script src="vendor/formstone/background.js"></script>
+    <script src="vendor/mixitup/jquery.mixitup.js"></script>
+    <script src="vendor/wow/wow.min.js"></script>
+
+    <!-- Contact Form Scripts -->
+    <script src="js/contact_me.js"></script>
+    <script src="js/jqBootstrapValidation.js"></script>
+
+    <!-- Vitality Theme Scripts -->
+    <script src="js/vitality.js"></script>
+
+</body>
+
+</html>

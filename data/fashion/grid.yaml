@@ -1,0 +1,64 @@
+title: "Portfolio"
+subtitle: "Here are some other projects that I've worked on."
+
+filters: [
+  "Identity",
+  "Graphic",
+  "Web"
+]
+
+elements:
+  - image: "img/agency/portfolio/grid/grid-1.jpg"
+    captionTitle: "Client Name"
+    captionCategory: "Brand Identity"
+    filters: # defined as GridFilters in config.toml
+      - "Identity"
+      - "Web"
+
+  - image: "img/agency/portfolio/grid/grid-2.jpg"
+    captionTitle: "Client Name"
+    captionCategory: "Web Development"
+    filters:
+      - "Web"
+
+  - image: "img/agency/portfolio/grid/grid-3.jpg"
+    captionTitle: "Client Name"
+    captionCategory: "Brand Identity"
+    filters:
+      - "Identity"
+
+  - image: "img/agency/portfolio/grid/grid-4.jpg"
+    captionTitle: "Client Name"
+    captionCategory: "Web Development"
+    filters:
+      - "Web"
+
+  - image: "img/agency/portfolio/grid/grid-5.jpg"
+    captionTitle: "Client Name"
+    captionCategory: "Web Development"
+    filters:
+      - "Web"
+
+  - image: "img/agency/portfolio/grid/grid-6.jpg"
+    captionTitle: "Client Name"
+    captionCategory: "Graphic Design"
+    filters:
+      - "Graphic"
+
+  - image: "img/agency/portfolio/grid/grid-7.jpg"
+    captionTitle: "Client Name"
+    captionCategory: "Graphic Design"
+    filters:
+      - "Graphic"
+
+  - image: "img/agency/portfolio/grid/grid-8.jpg"
+    captionTitle: "Client Name"
+    captionCategory: "Web Development"
+    filters:
+      - "Web"
+
+  - image: "img/agency/portfolio/grid/grid-9.jpg"
+    captionTitle: "Client Name"
+    captionCategory: "Brand Identity"
+    filters:
+      - "Identity"

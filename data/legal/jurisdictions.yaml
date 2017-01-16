@@ -1,0 +1,22 @@
+title: JURISDICTIONS
+subtitle: "Our firm has jurisdictions to practice law in the following areas:"
+delay: 0.2
+processes:
+  - process: "WEST COAST"
+    icon: "fa-globe"
+    bullets:
+      - State of California
+      - State of Oregon
+      - State of Washington
+  - process: "MIDWEST"
+    icon: "fa-globe"
+    bullets:
+      - State of North Dakota
+      - State of South Dakota
+      - State of Montana
+  - process: "SOUTHWEST"
+    icon: "fa-globe"
+    bullets:
+      - State of Colorado
+      - State of Arizona
+      - State of New Mexico

@@ -1,0 +1,22 @@
+
+title: Menu
+description: Here is a selection of items from our menu. Please call for additional details.
+images:
+  - title: Czech Honey Cake
+    image: img/culinary/menu/1.jpg
+    link: img/culinary/menu/1.jpg
+  - title: Mini Croissants
+    image: img/culinary/menu/2.jpg
+    link: img/culinary/menu/2.jpg
+  - title: Gourmet Sweet Cakes
+    image: img/culinary/menu/3.jpg
+    link: img/culinary/menu/3.jpg
+  - title: Traditional Honey Cake
+    image: img/culinary/menu/4.jpg
+    link: img/culinary/menu/4.jpg
+  - title: Rosemary Breadsticks and Salami Rolls
+    image: img/culinary/menu/5.jpg
+    link: img/culinary/menu/5.jpg
+  - title: Mini Croissants
+    image: img/culinary/menu/6.jpg
+    link: img/culinary/menu/6.jpg

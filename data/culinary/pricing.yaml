@@ -1,0 +1,27 @@
+
+title: Hours
+image: img/culinary/backgrounds/bg-pricing.jpg
+description: We serve breakfast, lunch, and dinner every day of the week.
+featured: false
+table:
+  - title: Breakfast
+    list:
+      - "<em>Mon - Thu: 7am - 11am</em>"
+      - "<em>Fri: 7am - 12pm</em>"
+      - "<em>Sat: 7am - 3pm</em>"
+      - "<em>Sun: All Day</em>"
+    action: Book Now
+  - title: Lunch
+    list:
+      - "<em>Mon - Thu: 11am - 3pm</em>"
+      - "<em>Fri: 11am - 5pm</em>"
+      - "<em>Sat: 11am - 3pm</em>"
+      - "<em>Sat: 11am - 3pm</em>"
+    action: Book Now
+  - title: Dinner
+    list:
+      - "<em>Mon - Thu: 5pm - 10pm</em>"
+      - "<em>Fri: 5pm - Late</em>"
+      - "<em>Sat: 5pm - Late</em>"
+      - "<em>Sun: 5pm - 10pm</em>"
+    action: Book Now

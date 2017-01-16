@@ -1,0 +1,27 @@
+<!-- Menu Gallery -->
+{{ with .Site.Data.legal.collection }}
+<section id="collection">
+    <div class="container wow fadeIn">
+        <div class="row text-center">
+            <div class="col-lg-12">
+                <h2>{{ .title }}</h2>
+                <hr class="colored">
+                <p>{{ .descrition }}</p>
+            </div>
+        </div>
+        <div class="row content-row">
+            <div class="col-lg-12">
+                <div class="portfolio-gallery">
+                    {{ range .images }}
+                    <div class="item">
+                        <a href="{{ .link }}" class="gallery-link" title="{{ .title }}">
+                            <img src="{{ .image }}" class="img-responsive img-centered" alt="">
+                        </a>
+                    </div>
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}

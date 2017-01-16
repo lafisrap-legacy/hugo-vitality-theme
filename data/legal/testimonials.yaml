@@ -1,0 +1,20 @@
+title: "TESTIMONIALS"
+subtitle: "Kind words from some of our past clients."
+quotes:
+  - lead: "Truly one of a kind."
+    quote: >
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+      Reprehenderit, temporibus, laborum, dignissimos doloremque corporis alias nostrum recusandae culpa id quisquam harum impedit sed sunt non obcaecati vero ipsam aut fugit?
+    image: "img/testimonials/1.jpg"
+    author: "Jeff Wellington"
+    authorInfo: "Food Critic"
+    stars: 5
+
+  - lead: "I haven't found better."
+    quote: >
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+      Quidem amet rem minus dolorum, facere in soluta explicabo, unde eveniet illo vel, nemo nostrum atque nesciunt facilis quaerat quasi reprehenderit dicta.
+    image: "img/testimonials/2.jpg"
+    author: "Jane Walker"
+    authorInfo: "Writer at Cuisine World"
+    stars: 4

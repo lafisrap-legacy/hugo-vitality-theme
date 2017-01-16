@@ -1,0 +1,17 @@
+
+projectName: "Project 3 Name"
+description: "Branding, Website Design"
+linkText: "View Details"
+backgroundImage: "img/creative/portfolio/carousel/bg-3.jpg"
+screenImage: "img/creative/portfolio/carousel/screen-3a.jpg"
+longDescription: >
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos modi in tenetur vero voluptatum sapiente dolores eligendi nemo iste ea. Omnis, odio enim sint quam dolorum dolorem. Nostrum, minus, ad.
+carouselImages:
+  - "img/creative/portfolio/carousel/screen-3a.jpg"
+  - "img/creative/portfolio/carousel/screen-3b.jpg"
+  - "img/creative/portfolio/carousel/screen-3c.jpg"
+info:
+  Client: 	"Start Bootstrap"
+  Date: 		"April 2015"
+  Service: 	"Web Development"
+closeButton: "Close"

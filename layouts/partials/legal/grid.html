@@ -1,0 +1,47 @@
+<!-- Portfolio Grid Section -->
+{{ with .Site.Data.legal.grid }}
+<section>
+    <div class="container text-center wow fadeIn">
+        <h2>{{ .title }}</h2>
+        <hr class="colored">
+        <p>{{ .subtitle }}</p>
+        <div class="row content-row">
+            <div class="col-lg-12">
+                <div class="portfolio-filter">
+                    <ul id="filters" class="clearfix">
+                        <li>
+                            <span class="filter active" data-filter="all">All</span>
+                        </li>
+                        {{ range $index, $element := .filters }}
+                        <li>
+                            <span class="filter" data-filter=".{{ . | urlize }}">{{ . }}</span>
+                        </li>
+                        {{ end }}
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div id="portfoliolist">
+                    <!-- NOTE: You can add more items to the grid, or remove items you don't need! -->
+                    {{ range .elements }}
+                    <div class="mix {{ range .filters }}{{ . | urlize }} {{ end }}" href="{{ .image }}" title="Client Name">
+                        <div class="portfolio-wrapper">
+                            <img src="{{ .image }}" alt="">
+                            <div class="caption">
+                                <div class="caption-text">
+                                    <a class="text-title">{{ .captionTitle }}</a>
+                                    <span class="text-category">{{ .captionCategory }}</span>
+                                </div>
+                                <div class="caption-bg"></div>
+                            </div>
+                        </div>
+                    </div>
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}

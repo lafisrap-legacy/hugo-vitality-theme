@@ -1,0 +1,20 @@
+<!-- About Section -->
+{{ with .Site.Data.creative.about }}
+<section id="about">
+    <div class="container wow fadeIn">
+            <div class="row">
+
+                <a href="{{ .imagelink }}">
+                    <div class="col-md-6">
+                        <img src="{{ .image }}" class="img-responsive" alt="">
+                    </div>
+                </a>
+                <div class="col-md-6 text-center">
+                    <h1>{{ .title }}</h1>
+                    <hr class="colored">
+                    <p>{{ .description | markdownify }}</p>
+                </div>
+            </div>
+    </div>
+</section>
+{{ end }}

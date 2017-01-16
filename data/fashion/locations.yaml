@@ -1,0 +1,21 @@
+
+title: Locations
+image: img/fashion/bg-locations.jpg
+description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, quae, laborum, voluptate delectus odio doloremque error porro obcaecati nemo animi ducimus quaerat nostrum? Ab molestiae eaque et atque architecto reiciendis.
+featured: false
+table:
+  - title: BEAUMONT
+    list:
+      - "<em>Hours:</em><br>Mon - Fri: 9:00am to 7:00pm<br>Sat - Sun: 10:00am to 8:00pm</li>"
+      - "<em>Phone:</em><br>394-555-5555</li>"
+      - "<em>Address:</em><br>8372 Greenway Ct.<br>Beaumont, CA 49204</li>"
+  - title: BAKERSVILLE
+    list:
+      - "<em>Hours:</em><br>Mon - Fri: 9:00am to 7:00pm<br>Sat - Sun: 10:00am to 8:00pm</li>"
+      - "<em>Phone:</em><br>394-555-5555</li>"
+      - "<em>Address:</em><br>324 Kingston Dr. <br>Santa Monica, CA 49204</li>"
+  - title: DOWNTOWN
+    list:
+      - "<em>Hours:</em><br>Mon - Fri: 9:00am to 7:00pm<br>Sat - Sun: 10:00am to 8:00pm</li>"
+      - "<em>Phone:</em><br>394-555-5555</li>"
+      - "<em>Address:</em><br>74 Main St. Suite #2 <br>Los Angeles, CA 49204</li>"

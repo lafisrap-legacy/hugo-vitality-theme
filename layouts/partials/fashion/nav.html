@@ -1,0 +1,29 @@
+{{ "<!-- NAVIGATION -->" | safeHTML }}
+<nav id="mainNav" class="navbar navbar-inverse navbar-fixed-top navbar-expanded">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <i class="fa fa-bars"></i>
+            </button>
+            <a class="navbar-brand page-scroll" href="#page-top">
+                {{ if .Site.Params.Brand }}
+                    {{ .Site.Params.Brand }}
+                {{ else }}
+                    <img src="{{ .Site.Params.BrandImage }}" class="img-responsive" alt="">
+                {{ end }}
+            </a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                {{ range .Site.Params.NavMenu }}
+                    <li>
+                        <a class="page-scroll" href="#{{ . | urlize }}">{{ . }}</a>
+                    </li>
+                {{ end }}
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>

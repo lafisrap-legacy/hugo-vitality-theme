@@ -1,0 +1,25 @@
+title: Our Values
+subtitle: We create flavorsome, traditional dishes using fresh, local ingredients.
+delay: 0.2
+values:
+  - title: "Ingredients"
+    icon: "fa-shopping-cart"
+    bullets:
+      - "<em>Fresh, local ingredients</em>"
+      - "<em>All natural and organic</em>"
+      - "<em>Carefully hand selected</em>"
+      - "<em>Tested for quality and taste</em>"
+  - title: "Technique"
+    icon: "fa-cutlery"
+    bullets:
+      - "<em>Traditional preparation</em>"
+      - "<em>Classic combinations</em>"
+      - "<em>Complex flavor profiles</em>"
+      - "<em>Hygenic and sanitary</em>"
+  - title: "Community"
+    icon: "fa-users"
+    bullets:
+      - "<em>Bakery rewards program</em>"
+      - "<em>Private events</em>"
+      - "<em>Personal catering menus</em>"
+      - "<em>Nightly community specials</em>"

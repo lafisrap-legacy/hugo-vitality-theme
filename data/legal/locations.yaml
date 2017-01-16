@@ -1,0 +1,21 @@
+
+title: Locations
+image: img/legal/backgrounds/bg-locations.jpg
+description: Our firm has nine locations across three different states. We serve clients in the Western United States.
+featured: false
+table:
+  - title: WEST COAST
+    list:
+      - "<strong>San Fransisco, CA</strong><br><em>415-555-5555</em><br>Mon - Fri: 8am to 5pm <br><a href='#'>Website</a>"
+      - "<strong>Portland, OR</strong><br><em>503-555-5555</em><br>Mon - Fri: 8am to 5pm <br><a href='#'>Website</a>"
+      - "<strong>Seattle, WA</strong><br><em>206-555-5555</em><br>Mon - Fri: 8am to 5pm <br><a href='#'>Website</a>"
+  - title: MIDWEST
+    list:
+      - "<strong>Bismarck, ND</strong><br><em>701-555-5555</em><br>Mon - Fri: 8am to 5pm <br><a href='#'>Website</a>"
+      - "<strong>Pierre, ND </strong><br><em>605-555-5555</em><br>Mon - Fri: 8am to 5pm <br><a href='#'>Website</a>"
+      - "<strong>Helena, MT</strong><br><em>406-555-5555</em><br>Mon - Fri: 8am to 5pm <br><a href='#'>Website</a>"
+  - title: SOUTHWEST
+    list:
+      - "<strong>Denver, CO</strong><br><em>303-555-5555</em><br>Mon - Fri: 8am to 5pm <br><a href='#'>Website</a>"
+      - "<strong>Phoenix, AZ</strong><br><em>602-555-5555</em><br>Mon - Fri: 8am to 5pm <br><a href='#'>Website</a>"
+      - "<strong>Albuquerque, NM</strong><br><em>505-555-5555</em><br>Mon - Fri: 8am to 5pm <br><a href='#'>Website</a>"

@@ -1,0 +1,104 @@
+<!-- Portfolio Carousel Heading -->
+{{ with .Site.Data.video.work }}
+<section id="work" class="bg-gray">
+    <div class="container text-center wow fadeIn">
+        <h2>{{ .title }}</h2>
+        <hr class="colored">
+        <p>{{ .subtitle }}</p>
+    </div>
+</section>
+{{ end }}
+
+<!-- Portfolio Carousel -->
+<section class="portfolio-carousel wow fadeIn">
+    <!-- Carousel Items -->
+    {{ $imageColumns := .Site.Data.video.work.imageColumns }}
+    {{ $screenFrame := .Site.Data.video.work.screenFrame }}
+    {{ range $index, $element := .Site.Data.video.work_ }}
+    <div class="item" style="background-image: url('{{ .backgroundImage }}')">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-{{ sub 12 $imageColumns }} col-md-push-{{ $imageColumns }}">
+                    <div class="project-details">
+                        {{ if .clientLogo }}
+                        <img src="{{ .clientLogo }}" class="img-responsive client-logo" alt="">
+                        {{ end }}
+                        <span class="project-name">{{ .projectName }}</span>
+                        <span class="project-description">{{ .description | markdownify }}</span>
+                        <hr class="colored">
+                        <a href="#workModal{{ $index }}" data-toggle="modal" class="btn btn-outline-light">{{ .linkText }} <i class="fa fa-long-arrow-right fa-fw"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-{{ $imageColumns }} col-md-pull-{{ sub 12 $imageColumns }} hidden-xs">
+                    {{ if $screenFrame }}
+                    <div class="device-container">
+                        <div class="device-mockup macbook portrait black">
+                            <div class="device">
+                                <div class="screen">
+                                    <img src="{{ .screenImage }}" class="img-responsive" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {{ else }}
+                        <img src="{{ .screenImage }}" class="img-responsive" alt="">
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+    </div>
+    {{ end }}
+</section>
+
+{{ range $index, $element := .Site.Data.video.work_ }}
+<div class="portfolio-modal modal fade" id="workModal{{ $index }}" tabindex="-1" role="dialog" aria-hidden="true" style="background-image: url('{{ .backgroundImage }}')">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="modal-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h2>{{ .projectName }}</h2>
+                        <hr class="colored">
+                        <p>{{ .longDescription | markdownify }}</p>
+                    </div>
+                    <div class="col-md-8 col-md-offset-2">
+                        <div class="device-mockup macbook portrait black">
+                            <div class="device">
+                                <div class="screen">
+                                    {{ if eq (len .carouselImages) 1 }}
+                                        {{ range .carouselImages }}
+                                        <img src="{{ . }}" class="img-responsive" alt="">
+                                        {{ end }}
+                                    {{ else }}
+                                        <div class="mockup-carousel">
+                                            {{ range .carouselImages }}
+                                            <div class="item">
+                                                <img src="{{ . }}" class="img-responsive" alt="">
+                                            </div>
+                                            {{ end }}
+                                        </div>
+                                    {{ end }}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-8 col-md-offset-2">
+                        <ul class="list-inline item-details">
+                            {{ range $index, $element := .info }}
+                            <li>{{ $index }}: <strong>{{ . }}</strong></li>
+                            {{ end }}
+                        </ul>
+                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> {{ .closeButton }}</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{{ end }}

@@ -1,0 +1,20 @@
+
+projectName: "Project 1 Name"
+linkText: "View Details"
+backgroundImage: "img/agency/portfolio/carousel/bg-1.jpg"
+screenImage: "img/agency/portfolio/carousel/screen-1a.jpg"
+description: "Branding, Website Design"
+longDescription: >
+  **Lorem ipsum dolor sit amet**, consectetur adipisicing elit. Quos modi in tenetur vero voluptatum sapiente dolores eligendi nemo iste ea. Omnis, odio enim sint quam dolorum dolorem. Nostrum, minus, ad.
+
+
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos modi in tenetur vero voluptatum sapiente dolores eligendi nemo iste ea. Omnis, odio enim sint quam dolorum dolorem. Nostrum, minus, ad.
+carouselImages:
+  - "img/agency/portfolio/carousel/screen-1a.jpg"
+  - "img/agency/portfolio/carousel/screen-1b.jpg"
+  - "img/agency/portfolio/carousel/screen-1c.jpg"
+info:
+  Client: 	"Start Bootstrap"
+  Date: 		"April 2015"
+  Service: 	"Web Development"
+closeButton: "Close"
