@@ -1,11 +1,14 @@
-# Vitality Theme
+# Hugo Vitality Theme (Frame)
 
-Vitality Theme is a premium multipurpose one page theme. It comes in six flavours: Agency, Creative, Culinary, Fashion, Legal and Video. It is a frame for the original theme [Vitality](//https://wrapbootstrap.com/theme/vitality-multipurpose-one-page-theme-WB02K3KK3) by [StartBootstrap](//https://wrapbootstrap.com). This Hugo theme features a variety of different content sections, like a responsive portfolio grid, animated product presentation, testimonial section, pricing displays with hover effects, full page produkt item modals, a contact form and a newsletter subscription.
+Hugo Vitality is a frame for the premium multipurpose one page Vitality theme by [StartBootstrap](//https://wrapbootstrap.com). This is not free. See instructions how to get it below. 
+
+The theme features six different flavours: Agency, Creative, Culinary, Fashion, Legal and Video. It comes with a variety of different content sections, like a responsive portfolio grid, animated product presentation, testimonial section, pricing displays with hover effects, full page produkt item modals, a contact form and a newsletter subscription.
 
 ![Hugo Vitality Theme screenshot](static/vitality.png)
 
 ![Hugo Vitality Theme screenshot](static/vitality2.png)
 
+![Hugo Vitality Theme screenshot](static/vitality3.png)
 
 ## Installation
 
@@ -19,7 +22,7 @@ For more information read the official [setup guide](//gohugo.io/overview/instal
 
 ## Getting started
 
-After installing the Vitality Theme successfully it requires a just a few more steps to get your site running.
+After installing the Hugo Vitality Theme successfully it requires a just a few more steps to get your site running.
 
 
 ### Install the StartBootstrap theme
@@ -28,41 +31,33 @@ The Hugo Vitality Theme is just a frame for the StartBootstrap Vitality theme. V
 
 ### The config file
 
-Take a look inside the [`exampleSite`](//github.com/hugo-startbootstrap-themes/hugo-vitality-theme/tree/master/exampleSite) folder of this theme. You'll find six config files called config-agency.toml, config-creative.toml, config-culinary.toml, config-fashion.toml, config-legal.toml, config-video.toml. Select one of them and copy it in the root folder of your Hugo site. Rename it to config.toml.
+Take a look inside the [`exampleSite`](//github.com/hugo-startbootstrap-themes/hugo-vitality-theme/tree/master/exampleSite) folder of this theme. You'll find six config files called config-agency.toml, config-creative.toml, config-culinary.toml, config-fashion.toml, config-legal.toml, config-video.toml. Select one of them and copy it in the root folder of your Hugo site. Rename it to config.toml. Then test the site:
 
 ```
 cp themes/hugo-vitality-theme/exampleSite/config-legal.toml config.toml
-hugo
+hugo serve
 ```
-Feel free to change the strings in this theme. You will also find some hints there where to look next.
+Now you can look at the site from a browser at address `http://localhost:1313`.
 
+Feel free to change the strings in this theme. You will also find some hints there where to look next.
 
 
 ### Change the hero background and text
 
-To change the hero eye-catcher of the site, open the file themes/hugo-vitality-theme/data/[your flavour]/hero.yaml and change image locations and texts there, and then copy your images into the static/img folder. That's where hugo will look for it.
+To change the hero eye-catcher of the site, open the file [`themes/hugo-vitality-theme/data/[your flavour]/hero.yaml`](//github.com/hugo-startbootstrap-themes/hugo-vitality-theme/tree/master/data/agency/hero.yaml) and change image locations and texts there, and then copy your images into the static/img folder. That's where hugo will look for it.
 
 
 ### Select the content sections
 
-In the file themes/hugo-vitality-theme/layouts/index.html you find the content structure of your new website. It is organised in partials in the partials folder. For every flavour you'll find all the content sections, one line each. Feel free to add and remove lines there. The corresponding data you find in the themes/hugo-vitality-theme/data folder. There is a .yaml file for every content section. If you need to change the layout, you can do it by changing the .html file in themes/hugo-vitality-theme/layouts/partials/[your flavour] folder. On content section is different: work.
+In the file [`themes/hugo-vitality-theme/layouts/index.html`](//github.com/hugo-startbootstrap-themes/hugo-vitality-theme/tree/master/layouts/index.html) you find the content structure of your new website. It is organised in partials in the partials folder. In the index.html file you find all the content sections for every flavour, one line each. Feel free to change order, add and remove lines there. The corresponding data you find in the `themes/hugo-vitality-theme/data` folder. There is a .yaml file for every content section. If you need to change the layout itself or add content, you can do it by changing the .html file in `themes/hugo-vitality-theme/layouts/partials/[your flavour]` folder. On content section is different: work.
 
 ### The Work section
 
-The work section contains an extra work_ folder in the themes/hugo-vitality-theme/data/[your flavour] folder. In there you find on .yaml file per product/project page. Just modify, add or delete files there.
+The work section contains an extra work_ folder in the `themes/hugo-vitality-theme/data/[your flavour]` folder. In there you find one .yaml file per product/project page. Just modify those files, add or delete.
 
 ### Icons
 
 All icons are part of Fontawesome's icon font. Look at the website of [Fontawesome](//fortawesome.github.io/Font-Awesome/icons/) for more icons. The icons are represented by their corresponding CSS class of Fontawesome. 
-
-
-### Nearly finished
-
-In order to see your site in action, run Hugo's built-in local server. 
-
-    $ hugo server
-
-Now enter [`localhost:1313`](http://localhost:1313/) in the address bar of your browser.
 
 
 ## Contributing
@@ -73,3 +68,5 @@ Did you found a bug or got an idea for a new feature? Feel free to use the [issu
 ## License
 
 This theme is released under the Apache License 2.0 For more information read the [License](//github.com/digitalcraftsman/hugo-agency-theme/blob/master/LICENSE).
+
+## Have fun!
