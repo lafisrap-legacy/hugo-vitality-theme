@@ -1,0 +1,16 @@
+name = "Vitality"
+license = "Apache License 2.0 (just the Hugo Frame, Vitality itself has to be obtained at Startbootstrap.com)"
+licenselink = "LICENSE.md"
+description = "Multipurpose One Page Theme (Flavours: Agency, Creative, Culinary, Fashion, Legal and Video)."
+homepage = "//github.com/hugo-startbootstrap-themes/hugo-vitality-theme"
+tags = ["bootstrap", "one page", "agency", "creative", "culinary", "fashion", "legal", "video"]
+min_version = 0.17
+
+[author]
+  name = "lafisrap"
+  homepage = "//github.com/lafisrap"
+
+# If porting an existing theme
+[original]
+  name = "StartBootstrap Vitality"
+  homepage = "//www.startbootstrap.com/"

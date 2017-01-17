@@ -7,6 +7,7 @@
 <!-- NOTE: Use the .modern or .vintage class to the body element below to see different font pairings! -->
 <body id="page-top"{{ if or (eq .Site.Params.Style "modern") (eq .Site.Params.Style "vintage") }} class="{{ .Site.Params.Style }}"{{ end }}>
 
+    {{ if ne (len (readDir "static")) 0 }}
     {{ if eq .Site.Params.Flavour "agency" }}
 
         {{ partial "agency/nav.html" . }}
@@ -120,6 +121,29 @@
     <!-- Vitality Theme Scripts -->
     <script src="js/vitality.js"></script>
 
+	{{ else }}
+
+	<style>
+		.box {
+			width: 50%;
+			margin: 50px auto;
+			border: 2px solid lightgrey;
+			border-radius: 20px;
+			padding: 20px;
+			font-size: 24px;
+			font-family: "Sanches"; 
+		}
+	</style>
+
+	<div class="container-fluid">
+		<div class="box">
+			<p>The Hugo Vitality Theme is just a frame for the StartBootstrap Vitality theme. Vitality is a premium theme and is not free. A single licence costs $10. You can buy it here: <a href="https://wrapbootstrap.com/theme/vitality-multipurpose-one-page-theme-WB02K3KK3">StartBootstrap Vitality Premium Theme</a>.</p>
+			<p>From the downloaded zip file just extract the contents of the dist folder to the static folder of this project. Then run hugo command.</p>
+
+		</div>
+	</div>
+
+	{{ end }}
 </body>
 
 </html>

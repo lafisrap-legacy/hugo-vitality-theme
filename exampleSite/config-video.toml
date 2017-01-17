@@ -3,11 +3,10 @@
 # Config File for CREATIVE flavour of VITALITY bootstrap theme
 #
 #--------------------------------------------------------------
-Baseurl = "http://localhost/vitality/public/"
-LanguageCode = "de-DE"
+Baseurl = "https://example.org/"
+LanguageCode = "en-US"
 Title = "Vitality"
 Theme = "hugo-vitality-theme"
-Style = "modern"		# default, modern or vintage
 
 [Params]
 
@@ -24,8 +23,8 @@ Style = "modern"		# default, modern or vintage
 	# There are sechs different flavours: agency, creative, culinary, fashion, legal, video
 	# and three styles: default, modern or vintage
   
-  Flavour = "agency"
-	Style = "default"
+  Flavour = "video"
+	Style = "default"	
 
 	# !Important: Theme colors can be selected in static/less/vitality.less
 	
@@ -34,6 +33,7 @@ Style = "modern"		# default, modern or vintage
 	Favicon = "favicon.ico"
 	Author = "StartBootstrap"
 	BrandImage = "img/agency/logo.svg"
+	BrandImageHeight = "50"
 
 	# List of Google fonts, for use in less files.
 	# To get the proper names do:
@@ -43,11 +43,12 @@ Style = "modern"		# default, modern or vintage
 	# - Add it to the list below.
 
 	Fonts = [
-		"Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic",
-		"Raleway:400,100,200,300,600,500,700,800,900",
-		"Montserrat:400,700",
-		"Sanchez:400italic,400",
-		"Cardo:400,400italic,700"
+    "Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic",
+    "Raleway:400,100,200,300,600,500,700,800,900",
+    "Montserrat:400,700",
+    "Cardo:400,400italic,700",
+    "Sanchez:400italic,400",
+    "Cardo:400,400italic,700"
 	]
 
 	# List of menu entries

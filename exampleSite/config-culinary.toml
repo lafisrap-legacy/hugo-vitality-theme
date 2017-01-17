@@ -3,8 +3,8 @@
 # Config File for CREATIVE flavour of VITALITY bootstrap theme
 #
 #--------------------------------------------------------------
-Baseurl = "http://localhost/vitality/public/"
-LanguageCode = "de-DE"
+Baseurl = "https://example.org/"
+LanguageCode = "en-US"
 Title = "Vitality"
 Theme = "hugo-vitality-theme"
 
@@ -23,8 +23,8 @@ Theme = "hugo-vitality-theme"
 	# There are sechs different flavours: agency, creative, culinary, fashion, legal, video
 	# and three styles: default, modern or vintage
   
-  Flavour = "video"
-	Style = "default"	
+  Flavour = "culinary"
+	Style = "modern"	
 
 	# !Important: Theme colors can be selected in static/less/vitality.less
 	
@@ -32,8 +32,7 @@ Theme = "hugo-vitality-theme"
 	Description = "I didn't set the website description yet."
 	Favicon = "favicon.ico"
 	Author = "StartBootstrap"
-	BrandImage = "img/agency/logo.svg"
-	BrandImageHeight = "50"
+	BrandImage = "img/culinary/logo.png"
 
 	# List of Google fonts, for use in less files.
 	# To get the proper names do:
@@ -55,11 +54,11 @@ Theme = "hugo-vitality-theme"
 	# - Make sure that there is a section with an id to jump to. E.g. for "About" this would be <section id="about">
 
 	NavMenu = [
-		"About",
-		"Process",
-		"Work",
-		"Pricing",
-		"Contact"
+		"Values",
+		"People",
+		"Press",
+		"Hours",
+		"Menu"
 	]
 
 	# All Sections are defined in yaml files in the folder data/creative

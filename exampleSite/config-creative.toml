@@ -3,11 +3,10 @@
 # Config File for CREATIVE flavour of VITALITY bootstrap theme
 #
 #--------------------------------------------------------------
-Baseurl = "http://localhost/vitality/public/"
-LanguageCode = "de-DE"
-Title = "Vitality"
+Baseurl = "https://example.org/"
+LanguageCode = "en-US"
+Iitle = "Vitality"
 Theme = "hugo-vitality-theme"
-Style = "modern"		# default, modern or vintage
 
 [Params]
 
@@ -24,16 +23,16 @@ Style = "modern"		# default, modern or vintage
 	# There are sechs different flavours: agency, creative, culinary, fashion, legal, video
 	# and three styles: default, modern or vintage
   
-  Flavour = "agency"
+  Flavour = "creative"
 	Style = "default"
 
 	# !Important: Theme colors can be selected in static/less/vitality.less
 	
 	Name = "I didn't set the website name yet."
 	Description = "I didn't set the website description yet."
-	Favicon = "favicon.ico"
 	Author = "StartBootstrap"
-	BrandImage = "img/agency/logo.svg"
+	Favicon = "favicon.ico"
+	Brand = "John Doe Jr."
 
 	# List of Google fonts, for use in less files.
 	# To get the proper names do:
@@ -55,9 +54,9 @@ Style = "modern"		# default, modern or vintage
 
 	NavMenu = [
 		"About",
+		"Services",
 		"Process",
 		"Work",
-		"Pricing",
 		"Contact"
 	]
 
