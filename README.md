@@ -2,13 +2,15 @@
 
 Hugo Vitality is a frame for the premium multipurpose one page Vitality theme by [StartBootstrap](//https://wrapbootstrap.com). This is not free. See instructions how to get it below. 
 
-The theme features six different flavours: Agency, Creative, Culinary, Fashion, Legal and Video. It comes with a variety of different content sections, like a responsive portfolio grid, animated product presentation, testimonial section, pricing displays with hover effects, full page produkt item modals, a contact form and a newsletter subscription.
+The theme features six different flavours: Agency, Creative, Culinary, Fashion, Legal and Video. It comes with a variety of different content sections, like a responsive portfolio grid, animated product presentation, testimonial section, pricing displays with hover effects, full page product item modals, a contact form and a newsletter subscription.
 
 ![Hugo Vitality Theme screenshot](static/vitality.png)
 
 ![Hugo Vitality Theme screenshot](static/vitality2.png)
 
 ![Hugo Vitality Theme screenshot](static/vitality3.png)
+
+Demo-Sites: [Agency](//c2064.org/v/agency) // [Creative](//c2064.org/v/creative) // [Culinary](//c2064.org/v/culinary) // [Fashion](//c2064.org/v/fashion) // [Legal](//c2064.org/v/legal) // [Video](//c2064.org/v/video)
 
 ## Installation
 
