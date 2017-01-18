@@ -1,0 +1,73 @@
+###############################################################
+#
+# Config File for CREATIVE flavour of VITALITY bootstrap theme
+#
+#--------------------------------------------------------------
+Baseurl = "https://example.org/"
+LanguageCode = "en-US"
+Title = "Vitality"
+Theme = "hugo-vitality-theme"
+
+[Params]
+
+	# You can use Markdown syntax for urls [text](//url.to/source) for
+	# most longer texts.
+
+	# All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
+	# for more icons. The icons are represented by their corresponding
+	# CSS class.
+
+	# To provide some metadata for search engines feel free to add a few
+  # information about you and your website.
+
+	# There are sechs different flavours: agency, creative, culinary, fashion, legal, video
+	# and three styles: default, modern or vintage
+  
+  Flavour = "agency"
+	Style = "modern"
+
+	# !Important: Theme colors can be selected in static/less/vitality.less
+	
+	Name = "I didn't set the website name yet."
+	Description = "I didn't set the website description yet."
+	Favicon = "favicon.ico"
+	Author = "StartBootstrap"
+	BrandImage = "img/agency/logo.svg"
+
+	# List of Google fonts, for use in less files.
+	# To get the proper names do:
+	# - Go to fonts.google.com.
+	# - Select a font, open the selected font at the bottom of the page, maybe customize it
+	# - In section "Embed Font" copy the full (boldly printed) family value. ('family=')
+	# - Add it to the list below.
+
+	Fonts = [
+		"Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic",
+		"Raleway:400,100,200,300,600,500,700,800,900",
+		"Montserrat:400,700",
+		"Sanchez:400italic,400",
+		"Cardo:400,400italic,700"
+	]
+
+	# List of menu entries
+	# - Make sure that there is a section with an id to jump to. E.g. for "About" this would be <section id="about">
+
+	NavMenu = [
+		"About",
+		"Process",
+		"Work",
+		"Pricing",
+		"Contact"
+	]
+
+	# All Sections are defined in yaml files in the folder data/creative
+	# HERO 				: hero.yaml
+	# ABOUT 			: about.yaml
+	# SERVICES 		: services.yaml
+	# ASIDE 			: aside.yaml
+	# PROCESS 		: process.yaml
+	# WORK 				: work.yaml /// single projects are defined in folder data/creative/work_
+	# GRID 				: grid.yaml
+	# NEWSLETTER 	: newsletter.yaml
+	# CONTACT 		: contact.yaml
+	# FOOTER 			: footer.yaml

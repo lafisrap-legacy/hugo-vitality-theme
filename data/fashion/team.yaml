@@ -2,7 +2,7 @@
 title: OUR TEAM
 description: "We are a group of fashion experts with a passion for setting new trends."
 people:
-  - image: "img/people/1.jpg"
+  - image: "img/fashion/team/1.jpg"
     name: "Alan Wimbledon"
     position: "<em>Owner</em>"
     social:
@@ -12,7 +12,7 @@ people:
       link:   "#"
     - icon:   "fa-envelope-o"
       link:   "#"
-  - image: "img/people/2.jpg"
+  - image: "img/fashion/team/2.jpg"
     name: "Jeffery Howard"
     position: "<em>Executive Chef</em>"
     social:
@@ -22,7 +22,7 @@ people:
       link:   "#"
     - icon:   "fa-envelope-o"
       link:   "#"
-  - image: "img/people/3.jpg"
+  - image: "img/fashion/team/3.jpg"
     name: "Kenny Williams"
     position: "<em>Executive Chef</em>"
     social:
@@ -32,7 +32,7 @@ people:
       link:   "#"
     - icon:   "fa-envelope-o"
       link:   "#"
-  - image: "img/people/4.jpg"
+  - image: "img/fashion/team/4.jpg"
     name: "Steven Cooper"
     position: "<em>Executive Chef</em>"
     social:
@@ -42,7 +42,7 @@ people:
       link:   "#"
     - icon:   "fa-envelope-o"
       link:   "#"
-  - image: "img/people/5.jpg"
+  - image: "img/fashion/team/5.jpg"
     name: "Francois Borde"
     position: "<em>Pastry Chef</em>"
     social:
