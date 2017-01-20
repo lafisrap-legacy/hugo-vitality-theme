@@ -10,7 +10,7 @@ The theme features six different flavours: Agency, Creative, Culinary, Fashion, 
 
 ![Hugo Vitality Theme screenshot](static/vitality3.png)
 
-Demo-Sites: [Agency](//c2064.org/v/agency) // [Creative](//c2064.org/v/creative) // [Culinary](//c2064.org/v/culinary) // [Fashion](//c2064.org/v/fashion) // [Legal](//c2064.org/v/legal) // [Video](//c2064.org/v/video)
+Demo-Sites: [Agency](//c2064.org/v/agency) // [Video](//c2064.org/v/video)
 
 ## Installation
 
